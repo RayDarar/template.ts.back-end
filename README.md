@@ -2,7 +2,7 @@
 
 Template project for back-end build using Express and typescript.
 
-## Tools 🚀
+## Tools ⚙️
 
 [Node.js](https://nodejs.org/en/) project, coded by [Typescript](https://www.typescriptlang.org/index.html), bundled by [Babel](https://babeljs.io/), formatted by [Prettier](https://prettier.io/), created to be scaled by [Nginx](https://www.nginx.com/)
 
