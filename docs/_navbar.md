@@ -1,2 +1,2 @@
-- [Configurations](./Configurations/index.md)
+- [Configuration](./Configurations/index.md)
 - [Changelog](./Changelog.md)
