@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    // path resolving
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "~/*": ["./test/*"]
+    }
+  },
+  "include": ["./src/**/*", "./test/**/*", "./lib/**/*"]
+}

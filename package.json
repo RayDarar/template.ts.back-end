@@ -1,0 +1,70 @@
+{
+  "name": "template.ts.back-end",
+  "version": "2.0.0",
+  "description": "Template project for back-end based on Express and Typescript",
+  "main": "src/main.ts",
+  "scripts": {
+    "start:dev": "nodemon",
+    "start:prod": "node ./build/main.js",
+    "start": "yarn start:prod",
+    "build:run": "babel ./src --out-dir ./build --extensions '.ts,.tsx,.js'",
+    "build:check": "tsc -p .",
+    "build": "yarn build:check && yarn build:run"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "**/*.test.ts",
+      "**/*.spec.ts",
+      ".git",
+      "node_modules"
+    ],
+    "watch": [
+      "src"
+    ],
+    "exec": "node -r tsconfig-paths/register -r ts-node/register ./src/main.ts",
+    "ext": "ts, js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RayDarar/template.ts.back-end.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/benzo-gs1/template.ts.back-end/issues"
+  },
+  "homepage": "https://github.com/benzo-gs1/template.ts.back-end#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.6",
+    "@babel/plugin-transform-runtime": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-typescript": "^7.9.0",
+    "@babel/register": "^7.9.0",
+    "@babel/types": "^7.9.6",
+    "babel-plugin-root-import": "^6.5.0",
+    "@types/express": "^4.17.6",
+    "husky": "^4.2.5",
+    "nodemon": "^2.0.3",
+    "prettier": "^2.0.4",
+    "pretty-quick": "^2.0.1",
+    "ts-node": "^8.10.1",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.8.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "license": "UNLICENSED"
+}

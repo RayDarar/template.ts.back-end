@@ -1,0 +1,11 @@
+# npm #
+node_modules/
+package-lock.json
+
+# babel && ts out #
+build/
+
+# tests #
+
+# env variables #
+.env
