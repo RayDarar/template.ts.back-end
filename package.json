@@ -6,6 +6,7 @@
   "scripts": {
     "start:dev": "nodemon",
     "start:prod": "node ./build/main.js",
+    "start:docs": "npx docsify serve",
     "start": "yarn start:prod",
     "build:run": "babel ./src --out-dir ./build --extensions '.ts,.tsx,.js'",
     "build:check": "tsc -p .",
