@@ -1,2 +1,3 @@
+- [Home page](./README.md)
 - [Configuration](./Configurations/index.md)
 - [Changelog](./Changelog.md)
