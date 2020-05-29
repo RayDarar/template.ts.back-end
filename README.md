@@ -1,15 +1,15 @@
-# SDU's Portal 💻️
+# TS Back-end 🚀
 
-Back-end part for SDU's portal.
+Template project for back-end build using Express and typescript.
 
 ## Tools 🚀
 
-This is a Node.js REST server build using [Express](https://expressjs.com/en/) framework.
+[Node.js](https://nodejs.org/en/) project, coded by [Typescript](https://www.typescriptlang.org/index.html), bundled by [Babel](https://babeljs.io/), formatted by [Prettier](https://prettier.io/), created to be scaled by [Nginx](https://www.nginx.com/)
 
 ## Documentation 📓
 
-For documentation reference [go here](https://github.com/benzo-gs1/portal.sdu.docs/).
+Documentation is powered by [Docsify](https://docsify.js.org/#/) and could be found [here](https://raydarar.github.io/template.ts.back-end/#/).
 
 ## License 📢
 
-This software is licensed under the Apache 2.0 license. Please get familiar with the statements and conditions first, before you continue working with this repository. For more details, please follow [LICENCE](./LICENSE);
+This software is licensed under the MIT license. Please get familiar with the statements and conditions first, before you continue working with this repository. For more details, please follow [LICENCE](./LICENSE);
